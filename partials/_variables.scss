@@ -1,0 +1,33 @@
+@use 'sass:math';
+/*Variables*/
+$primaryColor:red;
+$secondaryColor:green;
+$LogoWidth:100px;
+$logoHeight:100px;
+$base-padding:10px;
+$base-font-size:1rem;
+$font-sm:$base-font-size * 0.75;
+$font-md:$base-font-size * 1;
+$font-lg:$base-font-size * 1.75;
+$font-xlg:$base-font-size * 2;
+$font-wn:noraml;
+$font-wb:bold;
+$cardWidth:250px;
+$cardHeight:250px;
+$base-border-height:1px;
+$base-border-thickness:solid;
+$base-border-color:#000;
+$autohight:auto;
+$autowidth:auto;
+$base-box-shadow:1px 3px 10px #0f0f0f;
+$base-border-radius:10px;
+$pt:30px;
+$p-10:10px;
+$m-5:5px;
+$CardImgWidth:100px;
+$CardImgHeight:100px;
+
+$base-margin:1px;
+$m:$base-margin;
+$mt-3:$base-margin * 30;
+

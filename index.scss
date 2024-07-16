@@ -1,0 +1,85 @@
+@import 'partials/variables';
+@import 'partials/base';
+@import 'partials/utilities';
+
+
+.logo-container{
+    img{
+        width:$LogoWidth;
+        height: $logoHeight;
+    }
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #000;
+}
+.nav-items{
+
+    ul{
+        display: flex;
+        margin-top:$mt-3;
+        li{
+            list-style-type: none;
+            display: block;
+            padding: $base-padding;
+            font-size: $font-md;
+            font-weight: $font-wb;
+            // color: $secondaryColor;
+        }
+    }
+    
+}
+// .filter{
+//     .filter-btn{
+//         cursor: pointer;
+//     }
+// }
+.filter {
+    display: flex;
+    .search{
+        margin-right: 15px;
+    }
+}
+.res-container{  
+    display: flex;
+    flex-wrap: wrap;  
+    .resto-card{
+        // width:$cardWidth;
+        overflow: hidden;
+        padding:$p-10;
+        height: $autohight;
+        border:$base-border-height $base-border-thickness $base-border-color;
+        border-radius: $base-border-radius;
+        // box-shadow: $base-box-shadow;
+        cursor: pointer;
+        margin: $m-5;
+        width: 235px;
+        transition: 0.5s ease;
+        // transition-delay: 0.1s;
+        img{
+            width:100%;
+            height:200px;
+            object-fit: cover;
+            border-radius: $base-border-radius;
+            transition: 0.5s all;
+         
+        }
+       
+        &:hover{
+            transform: scale(0.96);
+          }
+    }
+}   
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;  
+    .shimmer-card{
+       width: 235px;
+       height: 500px;
+       background-color:#f0f0f0;
+       border-radius: $base-border-radius;
+       margin: $m-5;
+    }
+}
